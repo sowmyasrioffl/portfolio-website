@@ -1,90 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sowmyasri | Azure Cloud & DevOps Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Sowmyasri Gudimetla</h1>
-    <p>Azure Cloud & DevOps Engineer</p>
-    <nav>
+  <header class="hero">
+    <div class="container">
+      <h1>Sowmyasri Gudimetla</h1>
+      <p class="subtitle">Azure Cloud & DevOps Engineer</p>
+      <p class="tagline">
+        Azure | CI/CD | Terraform | Monitoring | Observability | Automation
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="resume.pdf" download>Download Resume</a>
+      </div>
+
+      <div class="top-links">
+        <a href="mailto:sowmyasri.offl@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sowmyasri-reddy-gudimetla-3307291a3" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sowmyasrioffl" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="container nav-links">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Results-driven Azure Cloud \& DevOps Engineer with overall 3 years of experience designing, automating, and optimizing scalable cloud infrastructure in production environments. Proven expertise in CI/CD, Infrastructure as Code (Terraform), Kubernetes (AKS), Automation and cloud observability. Successfully improved deployment efficiency, reduced downtime and enhanced system reliability for high-availability applications. 
-    </p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Microsoft Azure</li>
-      <li>Azure DevOps</li>
-      <li>Terraform</li>
-      <li>Iac</li>
-      <li>CI/CD Pipelines</li>
-      <li>Docker</li>
-      <li>Kubernetes (AKS)</li>
-      <li>Azure Monitor</li>
-      <li>Log Analytics</li>
-      <li>KQL</li>
-      <li>Power BI</li>
-      <li>HTML, CSS</li>
-      <li>Git, GitHub</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="card">
-      <h3>Terraform Azure Infrastructure</h3>
-      <p>Provisioned Azure resources using Terraform and Infrastructure as Code principles.</p>
-      <a href="https://github.com/sowmyasrioffl/terraform-azure-infra" target="_blank">View Project</a>
     </div>
+  </nav>
 
-    <div class="card">
-      <h3>CI/CD Pipeline using GitHub Actions</h3>
-      <p>Built an automated CI/CD workflow for build, test, and deployment processes.</p>
-      <a href="https://github.com/sowmyasrioffl/ci-cd-azure-pipeline" target="_blank">View Project</a>
-    </div>
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Azure Cloud & DevOps Engineer with nearly 3 years of experience in
+          enterprise production environments. My background includes Azure cloud
+          operations, CI/CD workflows, Terraform-based infrastructure, monitoring,
+          observability, automation, and incident management.
+        </p>
+        <p>
+          I enjoy building reliable cloud solutions, improving deployment workflows,
+          automating repetitive tasks, and using monitoring tools to improve system health
+          and operational efficiency.
+        </p>
+      </div>
+    </section>
 
-    <div class="card">
-      <h3>Azure Monitoring & Observability</h3>
-      <p>Created monitoring solution using Azure Monitor, Log Analytics, and KQL queries.</p>
-      <a href="https://github.com/sowmyasrioffl/azure-monitoring-kql-dashboard" target="_blank">View Project</a>
-    </div>
-  </section>
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Cloud</h3>
+            <ul>
+              <li>Microsoft Azure</li>
+              <li>Azure Monitor</li>
+              <li>Log Analytics</li>
+              <li>Application Insights</li>
+              <li>Azure AD</li>
+            </ul>
+          </div>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>AZ-104 Microsoft Azure Administrator</li>
-      <li>AZ-900 Microsoft Azure Fundamentals</li>
-      <li>MB-300 Dynamics 365 Finance & Operations</li>
-      <li>MB-500 Dynamics 365 Finance & Operations Developer</li>
-    </ul>
-  </section>
+          <div class="skill-card">
+            <h3>DevOps</h3>
+            <ul>
+              <li>Azure DevOps</li>
+              <li>CI/CD Pipelines</li>
+              <li>GitHub Actions</li>
+              <li>Git</li>
+              <li>Jenkins</li>
+            </ul>
+          </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sowmyasri.offl@gmail.com">sowmyasri.offl@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sowmyasri-reddy-gudimetla-3307291a3" target="_blank">My LinkedIn</a></p>
-    <p>GitHub: <a href="https://github.com/sowmyasrioffl" target="_blank">My GitHub</a></p>
-  </section>
+          <div class="skill-card">
+            <h3>Infrastructure & Containers</h3>
+            <ul>
+              <li>Terraform</li>
+              <li>Infrastructure as Code</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>AKS Monitoring</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Monitoring & Automation</h3>
+            <ul>
+              <li>KQL</li>
+              <li>Observability</li>
+              <li>Alerts & Dashboards</li>
+              <li>Azure Automation</li>
+              <li>PowerShell / Bash</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <ul>
+              <li>C#</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>REST APIs</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Data & Enterprise Tools</h3>
+            <ul>
+              <li>Power BI</li>
+              <li>Incident Reporting</li>
+              <li>Dynamics 365 F&O</li>
+              <li>Dynamics 365 Commerce</li>
+              <li>Linux / Windows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+          <div class="project-card">
+            <h3>Terraform Azure Infrastructure Deployment</h3>
+            <p>
+              Provisioned Azure infrastructure using Terraform with Infrastructure as Code concepts,
+              including reusable configuration and version-controlled deployment workflows.
+            </p>
+            <p><strong>Tech:</strong> Terraform, Azure, IaC, Git</p>
+            <a href="https://github.com/sowmyasrioffl/terraform-azure-infra" target="_blank">View GitHub Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>CI/CD Pipeline using GitHub Actions</h3>
+            <p>
+              Built an automated CI/CD workflow using GitHub Actions to simulate build, test,
+              and deployment stages triggered by code push events.
+            </p>
+            <p><strong>Tech:</strong> GitHub Actions, YAML, CI/CD, DevOps</p>
+            <a href="https://github.com/sowmyasrioffl/ci-cd-azure-pipeline" target="_blank">View GitHub Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Azure Monitoring & Observability</h3>
+            <p>
+              Designed a monitoring and observability solution using Azure Monitor concepts,
+              Log Analytics, KQL queries, alerts, and dashboard-oriented reporting.
+            </p>
+            <p><strong>Tech:</strong> Azure Monitor, Log Analytics, KQL, Alerting</p>
+            <a href="https://github.com/sowmyasrioffl/azure-monitoring-kql-dashboard" target="_blank">View GitHub Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>AKS Monitoring and Container Observability</h3>
+            <p>
+              Designed monitoring approach for AKS workloads with focus on node health,
+              pod performance, service availability, and container observability practices.
+            </p>
+            <p><strong>Tech:</strong> AKS, Kubernetes, Docker, Monitoring</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Incident Tracking REST API</h3>
+            <p>
+              Developed a REST API for incident tracking with CRUD operations, validation,
+              and logging to simulate production support and issue tracking workflows.
+            </p>
+            <p><strong>Tech:</strong> C#, ASP.NET Core, SQL, REST API</p>
+          </div>
+
+          <div class="project-card">
+            <h3>Power BI Monitoring Dashboard</h3>
+            <p>
+              Created dashboards to visualize system health, incident trends, and
+              monitoring insights for operational reporting and decision support.
+            </p>
+            <p><strong>Tech:</strong> Power BI, Reporting, Dashboarding</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt-bg">
+      <div class="container">
+        <h2>Experience Highlights</h2>
+        <div class="timeline-card">
+          <h3>Azure Cloud / DevOps Engineer</h3>
+          <p><strong>Bosch Global Software Technologies</strong> | Jan 2023 – Jun 2025</p>
+          <ul>
+            <li>Managed Azure production environments ensuring availability, reliability, and operational stability.</li>
+            <li>Implemented monitoring and observability solutions using Azure Monitor, Log Analytics, and Application Insights.</li>
+            <li>Developed KQL queries to analyze telemetry, troubleshoot incidents, and perform root cause analysis.</li>
+            <li>Implemented and managed CI/CD workflows, including deployment troubleshooting and release support.</li>
+            <li>Automated workflows using Azure Automation Runbooks to reduce manual effort and improve response time.</li>
+            <li>Monitored AKS and containerized workloads to improve service reliability and health visibility.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Associate Software Engineer</h3>
+          <p><strong>Bosch Global Software Technologies</strong> | Sep 2022 – Dec 2022</p>
+          <ul>
+            <li>Worked with C#, Java, SQL, REST APIs, HTML, and CSS fundamentals.</li>
+            <li>Performed debugging and issue resolution through log analysis and defect reproduction.</li>
+            <li>Gained exposure to Git workflows, CI/CD concepts, and deployment processes.</li>
+            <li>Worked with Dynamics 365 F&O and Commerce-related learning environments.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="cert-list">
+          <div class="cert-card">AZ-104 Microsoft Azure Administrator Associate</div>
+          <div class="cert-card">AZ-900 Microsoft Azure Fundamentals</div>
+          <div class="cert-card">MB-300 Dynamics 365 Finance & Operations</div>
+          <div class="cert-card">MB-500 Dynamics 365 Finance & Operations Developer</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:sowmyasri.offl@gmail.com">sowmyasri.offl@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sowmyasri-reddy-gudimetla-3307291a3" target="_blank">linkedin.com/in/sowmyasri-reddy-gudimetla-3307291a3</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/sowmyasrioffl" target="_blank">github.com/sowmyasrioffl</a></p>
+        <p><strong>Location:</strong> United Kingdom</p>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 Sowmyasri Gudimetla</p>
+    <p>© 2026 Sowmyasri Gudimetla | Azure Cloud & DevOps Engineer</p>
   </footer>
 </body>
 </html>
